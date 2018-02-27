@@ -12,5 +12,16 @@ class TagsTableSeeder extends Seeder
     public function run()
     {
         //
+        \App\Tag::create([
+        	'name' => 'match',
+  		]);
+
+      	\App\Tag::create([
+        	'name' => 'highlights',
+  		]);
+
+      	\App\Tag::create([
+        	'name' => 'promo',
+  		]);
     }
 }

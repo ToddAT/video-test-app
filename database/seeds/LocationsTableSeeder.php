@@ -12,5 +12,16 @@ class LocationsTableSeeder extends Seeder
     public function run()
     {
         //
+        \App\Location::create([
+        	'name' => 'New York City',
+  		]);
+
+      	\App\Location::create([
+        	'name' => 'Los Angeles',
+  		]);
+
+      	\App\Location::create([
+        	'name' => 'Kansas City',
+  		]);
     }
 }
